@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#342337"/>
+      <stop offset=".52" stop-color="#76515f"/>
+      <stop offset="1" stop-color="#d197a4"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a46e83"/>
+      <stop offset=".42" stop-color="#56364f"/>
+      <stop offset="1" stop-color="#171421"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#463443"/>
+      <stop offset="1" stop-color="#211d2b"/>
+    </linearGradient>
+    <radialGradient id="sunset" cx="50%" cy="70%" r="58%">
+      <stop offset="0" stop-color="#f2b2b5" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#e8a0b1" stop-opacity="0"/>
+    </radialGradient>
+    <g id="blossom" fill="#e6a5b6">
+      <ellipse cy="-10" rx="5" ry="9"/><ellipse cy="10" rx="5" ry="9"/>
+      <ellipse cx="-10" rx="9" ry="5"/><ellipse cx="10" rx="9" ry="5"/>
+      <circle r="4" fill="#f2cfbd"/>
+    </g>
+    <g id="flower-cluster" fill="#d98ca7">
+      <circle r="12"/><circle cx="17" cy="-6" r="9"/><circle cx="-14" cy="-9" r="10"/>
+      <circle cx="7" cy="13" r="9"/><circle cx="-10" cy="14" r="8"/>
+      <circle cx="2" cy="1" r="4" fill="#f2cfbd"/>
+    </g>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#sunset)"/>
+  <circle cx="835" cy="385" r="74" fill="#f1c2bb" opacity=".48"/>
+  <path d="M0 648 100 592 180 610 305 490 390 538 540 396 640 456 760 315 875 465 990 375 1090 490 1210 392 1340 560 1450 492 1600 602V790H0Z" fill="#584352" opacity=".7"/>
+  <path d="m0 702 180-116 100 37 150-160 80 45 132-174 92 113 86-62 88 96 96-74 126 163 116-61 154 111v183H0Z" fill="url(#mountain)"/>
+  <path d="m362 463 68-22 32 24 48-11 102-120 45 55 36-31 47 63-57-13-26 18-31-7-77 51-64-20-47 26-53-11Z" fill="#aa8490" opacity=".55"/>
+  <path d="m706 353 50-38 31 39 37 16 40 67-53-30-28 14-34-31-38 12-46-24Z" fill="#a78390" opacity=".48"/>
+  <path d="M0 731q185-35 370 7t365-2q250-38 480 5t385-2v461H0Z" fill="url(#water)"/>
+  <path d="M759 731q85 8 164 0t158 4v9q-83-4-158 5t-164-3Z" fill="#e9b0b4" opacity=".48"/>
+  <path d="M690 790q95 10 193 2t198 4M760 833q80 6 153 0t165 4M605 888q121 9 234 1t255 5M720 949q124 7 220 0t204 3M526 1022q160 8 315 1t298 6M655 1100q174 8 344 1" fill="none" stroke="#d49aaa" stroke-width="5" stroke-linecap="round" opacity=".26"/>
+  <path d="M0 803q156-93 337-51 61 15 131 71L0 931Zm1600-66q-139-54-262 12-54 29-89 83l351 97Z" fill="#191722"/>
+  <path d="M0 176q140 14 229-77 72-75 180-49M0 206q124-14 213-86M1600 150q-127 3-218-75-56-49-143-41m361 111q-128-9-205-72" fill="none" stroke="#171521" stroke-width="23" stroke-linecap="round"/>
+  <g fill="none" stroke="#171521" stroke-linecap="round">
+    <path d="M-28 710Q95 546 80 356q-8-107 69-211M48 561q96-58 105-161m-98 89Q6 410-23 378m73 146q108-7 166-104M84 360Q29 314 8 252" stroke-width="15"/>
+    <path d="M1608 686q-104-130-75-311 21-123-65-229m88 436q-77-62-121-150m101 52q75-45 100-120m-125-86q72-22 104-83" stroke-width="14"/>
+    <path d="M-8 633q96-58 155-139m132-533q-5 65-57 103m-91-17q40 17 77 5M1577 142q-51 8-95-14m-101-7q51 2 77 40" stroke-width="7"/>
+  </g>
+  <g opacity=".95">
+    <use href="#flower-cluster" x="41" y="157"/><use href="#flower-cluster" x="170" y="82"/>
+    <use href="#blossom" x="274" y="68"/><use href="#blossom" x="211" y="123"/>
+    <use href="#flower-cluster" x="1510" y="126"/><use href="#flower-cluster" x="1404" y="67"/>
+    <use href="#blossom" x="1310" y="88"/><use href="#blossom" x="1470" y="210"/>
+    <use href="#blossom" x="91" y="249"/><use href="#blossom" x="205" y="202"/>
+    <use href="#blossom" x="1510" y="302"/><use href="#blossom" x="1395" y="241"/>
+    <use href="#blossom" x="339" y="48"/><use href="#blossom" x="1264" y="51"/>
+  </g>
+  <g fill="#f0b2c1" opacity=".9">
+    <circle cx="335" cy="132" r="5"/><circle cx="291" cy="177" r="4"/><circle cx="1244" cy="157" r="5"/>
+    <circle cx="1357" cy="187" r="4"/><circle cx="77" cy="306" r="5"/><circle cx="1545" cy="365" r="4"/>
+    <circle cx="1200" cy="224" r="3"/><circle cx="379" cy="101" r="3"/><circle cx="143" cy="281" r="3"/>
+  </g>
+  <rect width="1600" height="1200" fill="none" stroke="#16141d" stroke-width="40" opacity=".3"/>
+</svg>
